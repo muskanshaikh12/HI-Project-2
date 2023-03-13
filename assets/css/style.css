@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header section css */
+.header {
+  font-family: "Raleway", sans-serif;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgb(0 0 0 /16%);
+  transition: top 300ms ease-in-out;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #525252;
+  padding: 10px 15px;
+  text-align: center;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: #00af42;
+}
+/* menu section css */
+.menu-section {
+  background-color: #00af42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.menu-lists {
+  background-color: #fff;
+  box-shadow: 3px 3px 12px rgb(0 0 0 /16%);
+  border-radius: 13px;
+  padding: 15px;
+  position: relative;
+  padding: 60px 70px 40px 60px;
+  margin: 0 80px;
+}
+.menu-lists::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.69);
+  border-radius: 30px;
+  width: calc(100% - 30px);
+  transform: translateX(-50%);
+}
+.menu-header6 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #00af42;
+  line-height: 1.08;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.menu-header2 {
+  font-family: "playfair Display", serif;
+  text-transform: capitalize;
+  color: #2f2f2f;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 46px;
+}
+.menuslider .nav-link {
+  background-color: transparent;
+  color: #00af42;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  border: 1px solid #2f2f2f;
+  border-radius: 13px;
+  min-width: 132px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 40px;
+}
+.menuslider .nav-link.active {
+  background-color: #98c52f;
+  color: #fff;
+  border-color: #98c52f;
+}
+
+.menuslider .swiper-slide {
+  width: auto;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 180px;
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+  background-color: #016e5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+}
+.swiper-button-next {
+  position: absolute;
+  top: 180px;
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+  background-color: #016e5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+}
+.menu-wrapper {
+  margin-top: 20px;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+.tab-content {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 20px;
+}
+.btn {
+  font-family: "raleway", serif;
+  background-color: #00af42;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 13px;
+  padding: 15px 40px;
+  text-transform: capitalize;
+}
+.btn1 {
+  margin-left: 20px;
+}
+.swiper-pagination-progressbar-fill {
+  display: none;
+}
+.swiper-pagination-progressbar {
+  display: none;
+}
+/* footer section css */
+.footer {
+  background-color: #2d333e;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  padding-top: 50px;
+}
+.footer-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 33%;
+}
+.footer-img {
+  height: 60px;
+}
+.footer-list-flex {
+  display: flex;
+
+  justify-content: space-between;
+  width: 60%;
+}
+.footer-first-flex {
+  display: block;
+  width: 35%;
+}
+ul {
+  padding-left: 0;
+}
+
+.icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons li:not(:last-of-type) {
+  margin-right: 12px;
+}
+
+.footer-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 35%;
+}
+.footer-para {
+  font-size: 15px;
+  line-height: 1.1;
+  margin-top: 25px;
+}
+.footer-header5 {
+  color: #98c52f;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer-info a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 2.1;
+}
+.footer-third-flex {
+  width: 25%;
+  margin-left: 50px;
+}
+.item-list li {
+  list-style: none;
+}
+.item-list li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 2.1;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px 0 17.5px 0;
+}
+.footer-bottom-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom-list li {
+  list-style: none;
+  font-size: 15px;
+}
+.working-hours span {
+  display: block;
+}
+.working-hours li:first-of-type {
+  margin-bottom: 30px;
+}

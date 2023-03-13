@@ -1,0 +1,142 @@
+@media all and (max-width: 1024px) {
+  .menu-header2 {
+    font-size: 40px;
+  }
+  .footer-logo {
+    width: 60%;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .footer-list-flex {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .footer-first-flex {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .footer-first-flex .footer-contact:first-of-type {
+    width: 50%;
+  }
+  .footer-first-flex .footer-contact:last-of-type {
+    width: 50%;
+  }
+
+  .working-hours {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .working-hours li:first-of-type {
+    width: 50%;
+  }
+  .working-hours li:last-of-type {
+    width: 50%;
+  }
+  .footer-third-flex {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .footer-item-list:first-of-type {
+    width: 50%;
+  }
+  .footer-item-list:last-of-type {
+    width: 50%;
+  }
+  .footer-items {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .swiper-button-prev {
+    display: none;
+  }
+  .swiper-button-next {
+    display: none;
+  }
+  .menu-header2 {
+    font-size: 20px;
+  }
+  .swiper-pagination-progressbar-fill {
+    display: block;
+  }
+  .menuslider .swiper-pagination-progressbar {
+    display: block;
+    top: auto;
+    bottom: 0;
+    height: 2px;
+  }
+  .swiper-wrapper {
+    padding-bottom: 10px;
+  }
+  .btn {
+    padding: 15px 15px;
+  }
+  .navbar-nav {
+    border-top: 1px solid #eaeaea;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 12px;
+    padding-top: 15px;
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    background-color: #ededed;
+    border-radius: 13px;
+  }
+  .navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #00af42;
+  }
+  .footer-bottom-list li {
+    list-style: none;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu-lists {
+    padding: 60px 10px 40px 10px;
+    margin: 0px 30px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .btn1 {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .menu-header2 {
+    font-size: 30px;
+  }
+  .navbar-nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  .item-list {
+    font-size: 10px;
+  }
+  .footer-para {
+    font-size: 10px;
+  }
+  .footer-items {
+    width: 100%;
+  }
+  .footer-header5 {
+    font-size: 13px;
+  }
+  .footer-bottom-list {
+    flex-direction: column;
+  }
+  .ft-top {
+    margin-top: 20px;
+  }
+}
